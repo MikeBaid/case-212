@@ -1,0 +1,27 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Описание правил",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "aml_rules.xlsx",
+				"container": "fc1"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Название правила",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

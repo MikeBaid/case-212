@@ -1,0 +1,15 @@
+{
+	"name": "HttpServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://drive.google.com/drive/u/0/folders/0B-xVoAkWoo5lLU5rcXhFU2dxTUU?resourcekey=0-mqhGS1XtyaKUfBnFG6rGag",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "mbaidakov",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEI5RjVCNjkwLUM2MDMtNEMyRS05RTRDLUI5NDg3QjEwQzhCRF83NDRiNjUyZS0xZDcxLTRlZTgtOWNjZC03YTdlOTQ4MmE5MjciDQp9"
+		}
+	}
+}

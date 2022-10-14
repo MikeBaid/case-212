@@ -1,0 +1,9 @@
+{
+	"name": "mikebaiddf1",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a06f15c-9ceb-47d4-bd59-056358e35684",
+		"tenantId": "873d8df5-3183-4d53-b0f9-d3eff292a0ff"
+	}
+}

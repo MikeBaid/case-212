@@ -1,0 +1,31 @@
+{
+	"name": "Excel3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Export Worksheet",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "lh_app_rules.xlsx",
+				"container": "fc1"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "IDENTIFIER",
+				"type": "String"
+			},
+			{
+				"name": "NAME",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
